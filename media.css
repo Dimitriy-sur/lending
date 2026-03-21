@@ -1,0 +1,551 @@
+@media screen and (max-width: 1500px) {
+    .container{
+        margin-inline: 70px;
+    }
+    .shift{
+        margin-top: 0;
+
+    }
+    .nav-list{
+        display: none;
+    }
+    .burger-menu{
+        display: flex;
+    }
+    .open {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        inset: 0;
+        padding-top: 50px;
+        padding-left: 26px;
+        z-index: 50;
+        overflow-y: auto;
+        background-color: #222222;
+        animation: burgerAnimation 0.2s;
+        row-gap: 24px;
+    }
+
+    @keyframes burgerAnimation {
+        from {opacity: 0}
+        to {opacity: 1}
+    }
+
+    .slider {
+        height: 418px;
+    }
+    .slides .inner {
+        height: 530px;
+        min-height: 530px;
+    }
+
+    .hero .container{
+        margin-top: 0;
+    }
+
+    .description {
+        margin-top: 148px;
+        font-size: 24px;
+    }
+
+    .description span {
+        font-size: 50px;
+    }
+
+    .description+p {
+        font-size: 18px;
+        padding-inline: 0;
+    }
+
+    #bullets{
+        margin: 0;
+        position: relative;
+        left: 70px;
+        top: -65px;
+    }
+
+    #bullets label{
+        scale: 0.7;
+    }
+
+    #controls{
+        margin-right: 35px;
+        margin-top: -55px;
+        scale: 0.7;
+    }
+
+    .services{
+        padding-block: 60px 60px;
+    }
+    .services_title{
+        font-size: 24px;
+        margin-left: 100px;
+    }
+
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+    }
+
+
+    .grid-img{
+        margin-top: 30px;
+    }
+
+    .card_description{
+        display: -webkit-box;
+        line-clamp: 3;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .history .container {
+        margin-block: 60px;
+    }
+
+    .history .container img{
+        display: none;
+    }
+
+    .about-title{
+        font-size: 24px;
+    }
+
+    .lawyers{
+        padding-block: 60px;
+    }
+
+    .lawyers-title {
+        font-size: 24px;
+    }
+
+    .lawyers-list{
+        margin-right: -70px;
+        overflow: auto;
+        overflow-x: scroll;
+        touch-action: pan-x;
+    }
+
+    .lawyers-list::-webkit-scrollbar {
+        display: none;
+    }
+
+    .clients-about-title{
+        font-size: 24px;
+    }
+
+    .clients-about .container {
+        padding-block: 60px;
+    }
+
+    .clients-about-slide-1{
+        min-width: 576px;
+    }
+
+    .useful-material {
+        margin-block: 60px;
+    }
+
+    .useful-title {
+        font-size: 24px;
+    }
+
+    .useful-desc {
+        margin: 37px auto 30px;
+    }
+
+    .footer{
+        padding-top: 40px;
+    }
+
+    .footer .container{
+        margin-inline: 70px;
+    }
+
+    .address-card img{
+        width: 45px;
+        height: 45px;
+    }
+
+    .address-desc{
+        font-size: 14px;
+    }
+
+    .main-lawyer{
+        width: 334px;
+    }
+
+    .footer-list {
+        margin-bottom: 60px;
+    }
+
+}
+
+
+@media (max-width: 1024px){
+    .clients-about-slider{
+        margin-right: -70px;
+    }
+
+    .clients-about-inner {
+        margin-right: -70px;
+        width: inherit;
+        align-items: flex-start;
+        overflow-x: scroll;
+        touch-action: pan-x;
+    }
+
+    .clients-about-inner::-webkit-scrollbar {
+        display: none;
+    }
+
+    .clients-about-slide-1{
+        min-width: 576px;
+    }
+
+    .clients-about-slides{
+        margin-right: -70px;
+    }
+
+
+    .useful-list{
+        overflow-x: auto;
+        touch-action: pan-x;
+        scroll-behavior: x mandatory;
+        margin-right: -70px;
+    }
+    .useful-list::-webkit-scrollbar{
+        display: none;
+    }
+
+    .useful-item{
+        max-width: 336px;
+    }
+
+    .useful-img{
+        width: 336px;
+    }
+
+    .last-label{
+        display: none;
+    }
+
+    .map-list{
+        display: none;
+    }
+
+    .label-footer {
+        margin-bottom: 24px;
+    }
+}
+
+
+
+
+
+
+
+@media  (max-width: 700px) {
+
+    .links a:nth-child(2) {
+        display: none;
+    }
+
+    .logo{
+        font-size: 16px;
+    }
+    .logo span{
+        font-size: 22px;
+    }
+
+    .nav {
+        height: 100%;
+        max-height: 84px;
+        padding: 18px 0px;
+    }
+
+    .slider {
+        height: 418px;
+    }
+
+    .slides .inner {
+        height: 530px;
+        min-height: 530px;
+    }
+
+    #controls {
+        margin-right: 70px;
+        margin-top: -55px;
+    }
+
+    .description {
+        margin-top: 148px;
+        font-size: 18px;
+    }
+
+    .description span {
+        font-size: 30px;
+    }
+
+    .description + p {
+        font-size: 16px;
+        padding: 0;
+    }
+
+    .services {
+        padding-block: 40px 40px;
+    }
+    .services_title {
+        margin-left: 0;
+    }
+
+    #clients-controls{
+        display: none;
+    }
+
+    .clients-about-slides{
+        margin-right: -70px;
+    }
+
+    .clients-about-inner {
+        margin-right: -70px;
+        width: inherit;
+        align-items: flex-start;
+        overflow-x: scroll;
+        touch-action: pan-x;
+    }
+
+    .clients-about-inner::-webkit-scrollbar {
+        display: none;
+    }
+
+    .clients-about-slide-1{
+        min-width: 340px;
+    }
+
+    .clients-about-title {margin-bottom: 40px;}
+
+    .clients-about .container {
+        padding-block: 40px;
+    }
+
+    .cap img{
+        width: 50px;
+        height: 50px;
+    }
+    .cap::after{
+        display: none;
+    }
+
+    #clients-about-slide1:checked~.clients-about-slides .clients-about-inner,
+    #clients-about-slide2:checked~.clients-about-slides .clients-about-inner,
+    #clients-about-slide3:checked~.clients-about-slides .clients-about-inner {
+        margin-left: 0;
+    }
+
+    .useful .container{
+        margin-inline: 26px;
+    }
+    .useful-btn {
+        margin-top: 40px;
+    }
+
+    .footer-list{
+        flex-direction: column;
+        row-gap: 40px;
+    }
+
+    .copyright .container {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 8px;
+    }
+
+    .copyright .container a{
+        text-align: center;
+    }
+
+
+}
+
+
+
+
+@media (max-width:460px) {
+    .container{
+        margin-inline: 24px;
+    }
+    #controls{
+        margin-right: 0px;
+    }
+
+    #bullets{
+        left: 25px;
+    }
+
+    .description {
+        margin-top: 148px;
+        font-size: 18px;
+    }
+
+    .description span {
+        font-size: 30px;
+    }
+
+    .description+p {
+        font-size: 16px;
+    }
+
+    .services {
+        padding-block:40px;
+    }
+
+    .services_title {
+        margin-left: 0px;
+        font-size: 20px;
+    }
+
+    .text {
+        font-size: 14px;
+        margin-bottom: 24px;
+    }
+
+    .services-grid {
+        display: flex;
+        max-height: 215px;
+        align-self: start;
+        overflow-x: scroll;
+        touch-action: pan-x;
+    }
+    .services-grid::-webkit-scrollbar{
+        display: none;
+    }
+
+    .services-card{
+        padding-inline: 16px;
+        min-width: 250px;
+        max-height: 215px;
+    }
+
+    .services-card::after,
+    .services-card::before{
+        display: none;
+    }
+
+    .grid-img{
+        margin-top: 24px;
+    }
+
+    .about-title {
+        font-size: 20px;
+    }
+
+    .services .container .button {
+        margin-top: 24px;
+    }
+
+    .buttons{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 24px;
+    }
+
+    .button.btn{
+        max-width: max-content;
+    }
+
+    .history .container {
+        margin-block: 40px;
+    }
+
+    .lawyers {
+        padding-block: 40px;
+    }
+
+    .lawyers-list{
+        overflow-y: none;
+    }
+
+    .lawyers-title {
+        font-size: 20px;
+    }
+
+    .lawyers-title-desc{
+        font-size: 14px;
+    }
+
+    .lawyers-card{
+        width: 250px;
+        height: 360px;
+        overflow-y: none;
+    }
+
+    .lawyers-card img{
+        width: 250px;
+        height: 235px;
+    }
+
+    .more-desc{
+        display: none;
+    }
+
+    .lawyers-card:hover::after,
+    .more-desc:hover {
+        opacity:0;
+    }
+
+    .lawyers-desc {
+        padding: 16px 16px;
+    }
+
+    .clients-about-title{
+        font-size: 20px;
+    }
+
+    .clients-about-inner{
+        align-items: flex-start;
+        width: inherit;
+    }
+
+    .clients-about .buttons {
+        margin-top: 24px;
+    }
+
+    .useful-material {
+        margin-block: 40px;
+    }
+
+    .useful-title {
+        font-size: 20px;
+    }
+
+    .useful-desc {
+        margin: 20px auto 24px;
+        font-size: 14px;
+    }
+
+    .useful-item {
+        max-width: 250px;
+    }
+
+    .useful-img{
+        width: 250px;
+        height: 200px;
+    }
+
+    .useful-item-desc h4{
+        font-size: 14px;
+    }
+
+    .footer .container{
+        margin-inline: 24px;
+    }
+
+    .label-footer {
+        justify-content: center;
+    }
+}
